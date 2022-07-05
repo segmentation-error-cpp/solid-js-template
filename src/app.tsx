@@ -1,9 +1,10 @@
 import { JSXElement, lazy } from 'solid-js';
 import { render } from 'solid-js/web';
 import {Routes, Route, Router} from 'solid-app-router';
+
 import Index from './pages/index';
 import About from './pages/about';
-import './style.sass'
+import './style.sass';
 
 
 function App(): JSXElement {
@@ -20,4 +21,4 @@ function App(): JSXElement {
 }
 
 
-render(App, document.getElementById("app"))
+render(App, document.getElementById("app"));

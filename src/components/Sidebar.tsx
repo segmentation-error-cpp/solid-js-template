@@ -4,7 +4,7 @@ import SidebarButton from "./SidebarButton";
 
 export default function Sidebar(): JSXElement {
 	return <>
-		<p>Sidebar</p>;
-		<SidebarButton/>;
+		<p>Sidebar</p>
+		<SidebarButton/>
 	</>
 }
